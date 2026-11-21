@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 05_keamanan.sql — KUNCI JAWABAN
--- Pemilik : P4
+-- Pemilik : Kafka
 -- Tiga pengguna dan hak aksesnya sesuai PRD bagian 8.4.
 -- =====================================================================
 USE klinik_pratama;

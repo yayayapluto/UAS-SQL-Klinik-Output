@@ -1,10 +1,10 @@
 -- =====================================================================
 -- 00-kesepakatan.sql
--- Pemilik : P1
+-- Pemilik : Agit
 -- Fase    : F0 kesepakatan-v1
 -- Butuh   : tidak ada
--- Sumber  : PRD bagian 5 sampai 7, panduan P1
--- Tautan  : ../../docs/PRD.md dan ../../docs/panduan-P1-studi-kasus-erd.md
+-- Sumber  : PRD bagian 5 sampai 7, panduan Agit
+-- Tautan  : ../../docs/PRD.md dan ../../docs/panduan-studi-kasus-erd.md
 -- =====================================================================
 -- Berkas ini hanya berisi komentar. Tidak ada pernyataan SQL yang bisa
 -- dieksekusi. Isinya adalah kesepakatan kelompok sebelum menulis skema.

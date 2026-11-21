@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 04_prosedur.sql — KUNCI JAWABAN
--- Pemilik : P4
+-- Pemilik : Agit
 -- sp_daftar_kunjungan dan sp_bayar_kunjungan sesuai PRD bagian 8.3.
 -- =====================================================================
 USE klinik_pratama;

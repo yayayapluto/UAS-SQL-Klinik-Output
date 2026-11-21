@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 01_struktur.sql — KUNCI JAWABAN
--- Pemilik : P3
+-- Pemilik : Farras
 -- Membuat database klinik_pratama dan sebelas tabel beserta kunci,
 -- kunci tamu, dan constraint sesuai PRD bagian 5.
 -- =====================================================================
