@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 03_view_trigger.sql — KUNCI JAWABAN
--- Pemilik : P4
+-- Pemilik : Kenzie
 -- Dua view dan empat trigger sesuai PRD bagian 8.1 dan 8.2.
 -- =====================================================================
 USE klinik_pratama;

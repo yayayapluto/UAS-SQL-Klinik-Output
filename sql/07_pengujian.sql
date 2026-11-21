@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 07_pengujian.sql — KUNCI JAWABAN
--- Pemilik : P5
+-- Pemilik : Rassya
 -- Sepuluh skenario uji. Jalankan dengan mysql --force karena uji 1-6
 -- dan 8-10 sengaja menghasilkan galat.
 --   bash tools/reset-db.sh

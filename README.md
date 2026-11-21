@@ -18,28 +18,30 @@ aplikasi Java, PHP, atau antarmuka grafis.
 
 ## Isi Folder
 
+Anggota kelompok: 1 Agit, 2 Dapa, 3 Farras, 4 Kenzie, 5 Kafka, 6 Rassya.
+
 | Berkas | Pemilik | Isi |
 |---|---|---|
-| `sql/00-kesepakatan.sql` | P1 | nama objek, aturan bisnis, kamus data, kardinalitas |
-| `sql/01_struktur.sql` | P3 | 11 tabel, kunci, 10 foreign key, constraint |
-| `sql/02_data.sql` | P2 | data contoh semua tabel, termasuk keadaan khusus untuk uji |
-| `sql/03_view_trigger.sql` | P4 | 2 view dan 4 trigger |
-| `sql/04_prosedur.sql` | P4 | `sp_daftar_kunjungan`, `sp_bayar_kunjungan` |
-| `sql/05_keamanan.sql` | P4 | 3 pengguna dan hak aksesnya |
-| `sql/06_indeks.sql` | P4 | `idx_pasien_nama`, `idx_kunjungan_tanggal` |
-| `sql/07_pengujian.sql` | P5 | 10 skenario uji, sengaja menghasilkan galat |
-| `sql/08_kueri.sql` | P4/P5 | Q1 sampai Q10 sesuai PRD bagian 7 |
-| `tools/reset-db.sh` | P5 | bangun ulang database dari nol |
-| `tools/verify.sh` | P5 | 34 pemeriksaan isi dan perilaku |
-| `tools/demo-isolasi.sh` | P5 | bukti READ COMMITTED, REPEATABLE READ, deadlock 1213 |
-| `tools/db.sh` | P5 | pemilih koneksi Docker atau MySQL host |
-| `tools/build.sh` | P5 | bangun PDF laporan |
-| `docs/kesepakatan.md` | P1 | kesepakatan kelompok versi Markdown |
-| `docs/alur-muat.mmd` | P5 | sumber diagram alur muat |
-| `docs/build-flow.sh` | P5 | kompilasi ulang diagram jadi SVG |
-| `panduan/gambar/erd.tex` | P1 | ERD versi LaTeX/TikZ |
-| `panduan/gambar/erd.drawio` | P1 | ERD versi draw.io |
-| `laporan/template-laporan.tex` | P1 | kerangka laporan, termasuk Bab I dan Bab III |
+| `sql/00-kesepakatan.sql` | Agit | nama objek, aturan bisnis, kamus data, kardinalitas |
+| `sql/01_struktur.sql` | Farras | 11 tabel, kunci, 10 foreign key, constraint |
+| `sql/02_data.sql` | Dapa | data contoh semua tabel, termasuk keadaan khusus untuk uji |
+| `sql/03_view_trigger.sql` | Kenzie | 2 view dan 4 trigger |
+| `sql/04_prosedur.sql` | Agit | `sp_daftar_kunjungan`, `sp_bayar_kunjungan` |
+| `sql/05_keamanan.sql` | Kafka | 3 pengguna dan hak aksesnya |
+| `sql/06_indeks.sql` | Kenzie | `idx_pasien_nama`, `idx_kunjungan_tanggal` |
+| `sql/07_pengujian.sql` | Rassya | 10 skenario uji, sengaja menghasilkan galat |
+| `sql/08_kueri.sql` | Kafka | Q1 sampai Q10 sesuai PRD bagian 7 |
+| `tools/reset-db.sh` | Rassya | bangun ulang database dari nol |
+| `tools/verify.sh` | Rassya | 34 pemeriksaan isi dan perilaku |
+| `tools/demo-isolasi.sh` | Rassya | bukti READ COMMITTED, REPEATABLE READ, deadlock 1213 |
+| `tools/db.sh` | Rassya | pemilih koneksi Docker atau MySQL host |
+| `tools/build.sh` | Rassya | bangun PDF laporan |
+| `docs/kesepakatan.md` | Agit | kesepakatan kelompok versi Markdown |
+| `docs/alur-muat.mmd` | Rassya | sumber diagram alur muat |
+| `docs/build-flow.sh` | Rassya | kompilasi ulang diagram jadi SVG |
+| `panduan/gambar/erd.tex` | Agit | ERD versi LaTeX/TikZ |
+| `panduan/gambar/erd.drawio` | Agit | ERD versi draw.io |
+| `laporan/template-laporan.tex` | Agit | kerangka laporan, termasuk Bab I dan Bab III |
 | `bukti/` | semua | keluaran perintah yang dipakai sebagai bukti |
 
 ## Prasyarat

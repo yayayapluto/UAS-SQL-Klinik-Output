@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 08_kueri.sql — KUNCI JAWABAN
--- Pemilik : P4/P5
+-- Pemilik : Kafka
 -- Sepuluh query bukti (Q1-Q10) sesuai PRD bagian 7.
 -- =====================================================================
 USE klinik_pratama;

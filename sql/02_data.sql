@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 02_data.sql — KUNCI JAWABAN
--- Pemilik : P2
+-- Pemilik : Dapa
 -- Data contoh: poli 5, dokter 6, jadwal 8, pasien 10, kunjungan 14,
 -- rekam 10, tindakan 6, detail_tindakan 16, obat 8, detail_resep 12,
 -- pembayaran 10. Keadaan khusus sesuai PRD bagian 9.

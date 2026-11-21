@@ -1,6 +1,6 @@
 -- =====================================================================
 -- 06_indeks.sql — KUNCI JAWABAN
--- Pemilik : P4
+-- Pemilik : Kenzie
 -- Dua indeks sesuai PRD bagian 8.5, dapat dijalankan berulang.
 -- =====================================================================
 USE klinik_pratama;

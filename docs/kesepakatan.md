@@ -1,8 +1,9 @@
 # Kesepakatan F0: Sistem Informasi Klinik Pratama
 
 Dokumen ini mencatat kesepakatan yang ditutup dengan tag `kesepakatan-v1`.
-Pemiliknya Anggota 1 (P1). Isinya menjadi acuan sebelum `sql/01_struktur.sql`
-dibekukan dan sebelum P2, P3, dan P4 menulis berkas masing-masing.
+Pemiliknya Agit (Anggota 1). Isinya menjadi acuan sebelum `sql/01_struktur.sql`
+dibekukan dan sebelum Dapa, Farras, Kenzie, Kafka, dan Rassya menulis berkas
+masing-masing.
 
 Sumber angka dan nama adalah `Panduan Projek/docs/PRD.md`. Kalau dokumen ini dan
 PRD berbeda, PRD yang menang, dan dokumen ini yang diperbaiki.
@@ -86,7 +87,7 @@ pengerjaan.
 | pembayaran | id_pembayaran, id_kunjungan, tanggal_bayar, metode, total_tagihan, status_bayar | Tagihan satu kunjungan. Satu kunjungan paling banyak satu baris. |
 
 Tipe data, `ENUM`, dan nama constraint tidak diulang di sini karena sumbernya
-`sql/01_struktur.sql`. Perubahan tipe atau nama kolom hanya lewat P3.
+`sql/01_struktur.sql`. Perubahan tipe atau nama kolom hanya lewat Farras.
 
 ## 5. Delapan kebutuhan informasi
 
@@ -140,13 +141,14 @@ dibaca sebagai kelalaian.
 
 Satu berkas satu pemilik. Berkas anggota lain dibaca, tidak disunting.
 
-| Kode | Berkas dan bagian milik |
+| Anggota | Berkas dan bagian milik |
 |---|---|
-| P1 | `docs/kesepakatan.md`, `panduan/gambar/erd.tex`, Bab I dan Bab III `laporan/template-laporan.tex`, subbab ERD pada Bab II, bahan video konsep |
-| P2 | `sql/02_data.sql`, dokumentasi normalisasi, tangkapan layar query dasar |
-| P3 | `sql/01_struktur.sql`, tabel transformasi, skema relasional, aljabar relasional |
-| P4 | `sql/03_view_trigger.sql` sampai `sql/06_indeks.sql` |
-| P5 | `sql/07_pengujian.sql`, `tools/`, `bukti/`, daftar periksa, video, build PDF |
+| Agit (Anggota 1) | `docs/kesepakatan.md`, `sql/00-kesepakatan.sql`, `sql/04_prosedur.sql`, `panduan/gambar/erd.tex`, Bab I dan Bab III `laporan/template-laporan.tex`, subbab ERD pada Bab II |
+| Dapa (Anggota 2) | `sql/02_data.sql`, dokumentasi normalisasi, tangkapan layar query dasar |
+| Farras (Anggota 3) | `sql/01_struktur.sql`, tabel transformasi, skema relasional, aljabar relasional |
+| Kenzie (Anggota 4) | `sql/03_view_trigger.sql`, `sql/06_indeks.sql` |
+| Kafka (Anggota 5) | `sql/05_keamanan.sql`, `sql/08_kueri.sql` |
+| Rassya (Anggota 6) | `sql/07_pengujian.sql`, `tools/`, `bukti/`, daftar periksa, build PDF |
 
 ## 9. Keputusan yang dicatat
 
@@ -164,8 +166,8 @@ dipertanyakan lagi saat presentasi.
 Dua keputusan teknis penulisan yang diambil di sesi ini:
 
 5. Subbab perbandingan NoSQL ditempatkan pada Bab III laporan sebagai subbab
-   III.4, bukan di Bab II, supaya tidak bertabrakan dengan penyuntingan P2 dan
-   P3.
+   III.4, bukan di Bab II, supaya tidak bertabrakan dengan penyuntingan Dapa dan
+   Farras.
 6. Nama dan NIM anggota pada sampul serta tabel peran dibiarkan bergaris kosong.
    Pengisiannya dilakukan setelah data kelompok final.
 
@@ -177,23 +179,22 @@ Dua keputusan teknis penulisan yang diambil di sesi ini:
 - [x] Ruang lingkup beserta empat hal di luar cakupan disepakati.
 - [x] Kardinalitas 1:N, M:N, dan 1:0..1 tercatat lengkap.
 - [x] Pembagian berkas tercatat.
-- [ ] Tag `kesepakatan-v1` dipasang setelah dokumen ini disetujui kelima anggota.
+- [ ] Tag `kesepakatan-v1` dipasang setelah dokumen ini disetujui keenam anggota.
 
 ## 11. Status verifikasi akhir
 
-Pemeriksaan akhir P1 terhadap daftar periksa buatan P5 belum bisa dijalankan
-karena berkas daftar periksa itu belum ada di repositori. Butir daftar periksa
-tersedia sebagai panduan di `panduan/bab/14-daftar-periksa.tex`, tetapi
-hasilnya baru bisa diperiksa setelah P5 menyerahkan daftar beserta berkas
-buktinya.
+Pemeriksaan akhir Agit terhadap daftar periksa buatan Rassya belum bisa
+dijalankan karena berkas daftar periksa itu belum ada di repositori. Butir
+daftar periksa tersedia sebagai panduan di `panduan/bab/14-daftar-periksa.tex`,
+tetapi hasilnya baru bisa diperiksa setelah Rassya menyerahkan daftar beserta
+berkas buktinya.
 
-Rekaman video bagian konsep juga belum ada. Video tidak bisa dibuat tanpa
-merekam layar dan suara anggota, jadi butir ini menunggu tindakan Anggota 1 di
-luar sesi menulis. Isi yang harus dibahas mengikuti Bab I dan Bab III laporan:
-studi kasus lima langkah, ruang lingkup, ERD beserta kardinalitas, dan
-kesimpulan.
+Keluaran akhir proyek hanya tiga: laporan dalam bentuk PDF, berkas `bukti/`
+berisi keluaran perintah, dan PDF panduan. Tidak ada bahan presentasi lain yang
+perlu disiapkan, sehingga butir penilaian cukup diperiksa lewat ketiga berkas
+itu.
 
-Butir lain pada daftar P1 sudah terpenuhi dan buktinya tercatat: kamus data
+Butir lain pada daftar Agit sudah terpenuhi dan buktinya tercatat: kamus data
 cocok dengan `sql/01_struktur.sql` untuk sebelas tabel, tabel kardinalitas
 memuat delapan relasi dengan tipe 1:N, M:N, dan 1:0..1, serta laporan terbangun
 tanpa rujukan menggantung.
